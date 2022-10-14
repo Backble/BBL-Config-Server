@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: bbl-config
+
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/Backble/BBL-Config-Repo
