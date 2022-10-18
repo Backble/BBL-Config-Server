@@ -1,6 +1,12 @@
 server:
   port: 8888
 
+encrypt:
+  key-store:
+    location: file://${user.home}/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiencryption
+
 management:
   endpoints:
     web:
